@@ -4,6 +4,19 @@ date: 2022-07-28T08:21:49.652Z
 description: asdadasdasdasd
 image: ""
 ---
+```swift
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+
+  Glassfy.initialize(apiKey: "YOUR_API_KEY", watcherMode: false)
+
+  [...]
+
+  // optionally login your user
+  Glassfy.login(user: "youruser")
+
+}
+```
+
 # Integrating a Paddle License Key
 
 ## What is Paddle and Why Integrate it?
