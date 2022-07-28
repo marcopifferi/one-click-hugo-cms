@@ -1,7 +1,7 @@
 ---
-title: Post di prova
+title: Integrating a Paddle License Key
 date: 2022-07-28T08:21:49.652Z
-description: asdadasdasdasd
+description: What is Paddle and Why Integrate it?
 image: ""
 ---
 ```swift
